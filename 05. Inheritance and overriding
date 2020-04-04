@@ -1,2 +1,28 @@
+Hierarchy:
 HTML is based off a hierarchy, that is HTML is the root element and then we have elements that are nested with inside HTML. 
-So there's the body element and the head element and then there's elements that are nested within the body element and head element. That is the hierarchy and what do you get
+So there's the body element and the head element and then there's elements that are nested within the body element and head element.
+That is the hierarchy and what do you get with a hierarchy.
+
+Overriding:
+As shown below, p{color:brown;} now will override body{color:red;} and then the paragraph will be shown in brown.
+Therefore, the inheritance only works if you don't have an identical rule in the child elements.
+
+<style>
+
+body{
+
+color:red;
+
+}
+
+p{
+
+color:brown;
+
+font-size:25px;
+
+font-family:Helvetica;
+
+}
+
+</style>

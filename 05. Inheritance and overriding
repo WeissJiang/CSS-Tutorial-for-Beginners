@@ -1,2 +1,2 @@
 HTML is based off a hierarchy, that is HTML is the root element and then we have elements that are nested with inside HTML. 
-So there 
+So there's the body element and the head element and then there's elements that are nested within the body element and head element. That is the hierarchy and what do you get

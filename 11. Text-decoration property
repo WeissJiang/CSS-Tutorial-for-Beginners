@@ -1,0 +1,48 @@
+External style sheet:
+
+body{
+
+color:green;
+
+font-family:Verdana, Arial, Geneva, Arial Black;
+
+font-weight:bolder;
+
+}
+
+h1,h2{
+
+text-decoration:underline;
+
+background-color:pink;
+
+}
+
+.blue{
+
+color:blue;
+
+font-size:25px;
+
+font-weight:lighter;
+
+}
+
+p.purple{
+
+color:purple;
+
+font-size:25px;
+
+}
+
+
+
+Notes:
+text-decoration:underline   下划线
+text-decoration:line-through   删除线
+text-decoration:overline   上划线
+Combine "underline" and "overline":
+   h1{
+   text-decoration:underline overline;
+   }

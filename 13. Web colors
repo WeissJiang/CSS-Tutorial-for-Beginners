@@ -1,0 +1,35 @@
+1. 16 primary colors (color name):
+
+body{
+
+color:green;
+
+background-color:pink;
+
+}
+
+1. RGB values:
+
+body{
+
+color:green;
+
+background-color:rgb(240,28,235);
+
+}
+
+3. Hex codes:
+
+body{
+
+color:green;
+
+background-color:#ff9999;
+
+}
+
+
+
+Notes:
+color points to words in body tag will be shown in green.
+background-color points to the web background color will be shown in lime.

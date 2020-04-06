@@ -1,0 +1,15 @@
+<p id="para1homepage"> Welcome to the Fish Web Site. Everything you want to know about fish is in this web site. </p>
+
+
+style.css
+#para1homepage{
+
+color:blue;
+
+}
+
+
+
+Notes:
+class: .(dot)
+id: #(hashtag)

@@ -1,0 +1,15 @@
+Notes:
+Background-color property only applies to padding and content.
+
+Can combine padding properties into one.
+Padding: 20px 20px 20px 70px;  (top, right, bottom padding are 20px, and left pa dding is 70px)
+padding: 10px 40px;   (top and bottom padding are 10px, right and left padding are 40px)
+Padding: 20px;  (top, right, bottom and left padding are 20px)
+
+Can combine border properties too.
+border: black 2px solid;   (border-color, border-width, and border-style)
+
+To eliminate margin.
+body{
+Margin: 0; 
+}

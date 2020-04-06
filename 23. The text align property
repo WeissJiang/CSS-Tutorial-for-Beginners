@@ -1,0 +1,16 @@
+h2{
+
+text-decoration: underline;
+
+background-color:pink;
+
+font-size:1.2em;
+
+text-align:center;
+
+}
+
+
+
+Notes:
+text-align: left|right|center;

@@ -1,0 +1,18 @@
+p{
+
+border-color:#999900;
+
+border-width:thick;
+
+border-style:double;
+
+}
+
+
+
+Notes:
+border-color: Name|RGB|Hex code;
+
+border-width: thin|medium|thick or px;
+
+border-style: solid|dashed|dotted|double|groove|ridge|inset|outset;

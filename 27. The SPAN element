@@ -1,0 +1,20 @@
+1.
+<p> I have a <span style="color:black">black</span> cat。</p>
+
+2.
+<p> It was incorporated as a Crown settlement in 1837, and named Melbourne 
+by <span class="highlight">Governor General Richard Bourke</span> on 10 April 1837. </p>
+
+style.css
+.highlight{
+
+background-color: blue;
+
+color: black;
+
+}
+
+
+
+Notess:
+span tag is a inline element.

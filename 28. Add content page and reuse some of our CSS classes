@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sharks </title>
+        <link rel="stylesheet" type="text/css" href="external style sheet.css">
+    </head>
+    <body>
+        <div class="divcontent">
+            <h1> Megaladon</h1>
+            <p class="paragraph"> Megaladon was the largest shark ever found in the fossil record. It ruled the seas during it's heyday. 
+            Megaladon may have reached up to 80 feet in length. The shark's bite force was greater than a T-Rex. </p>
+        </div>
+    </body>
+</html>
+
+
+
+Notes:
+Here's the new html file (content page), and you can see we're going to be reusing hte same style.css that we've been 
+using so that's more convenient. All of your future web pages can reuse the same style sheet.

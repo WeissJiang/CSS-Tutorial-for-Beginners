@@ -1,0 +1,8 @@
+Notes:
+colon(:) *
+
+style.css
+a:link {color:#FF0000;}      /* 未访问链接*/
+a:visited {color:#00FF00;}      /* visited link */
+a:hover {color:#FF00FF;}      /* mouse over link */
+a:active {color:#0000FF;}      /* selected link */

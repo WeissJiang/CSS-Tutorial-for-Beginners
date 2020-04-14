@@ -1,0 +1,12 @@
+Notes:
+Convert INLINE elements into BLCOK elements:
+
+img.special{
+
+padding: 10px;
+border: blcok 2px solid;
+display: clock;
+
+}
+
+then, it will stack in a top-down order.

@@ -1,0 +1,19 @@
+Notes:
+HTML is made up of various elements that act as the building blocks of web pages. For the purpose of styling, elements are divided into two categories: block-level elements and inline elements.
+In summary, a <span> element is used as an inline element and a <div> element as a block level element.
+The difference between the two elements is a commonly misunderstood concept of web design but it does not have to be!
+
+Basically, an inline element does not cause a line break (start on a new line) and does not take up the full width of a page, only the space bounded by its opening and closing tag. It is usually used within other HTML elements.
+Other examples of inline elements are:
+anchor <a> tag
+emphasis <em> tag
+image <img> tag
+
+A block-level element always starts on a new line and takes up the full width of a page, from left to right. A block-level element can take up one line or multiple lines and has a line break before and after the element.
+Other examples of the block-level tag are:
+Heading tags <h1> to <h6>
+List (Ordered, Unordered, Description and List Item) tags <ol> , <ul> ,<dl> , <li>
+Pre-formatted text tag <pre>
+Blockquote tag <blockquote>
+
+Visually, <a href="https://miro.medium.com/max/2800/1*AFeOAqXNJJdfYAjfXiJ9AQ.jpeg"></a>

@@ -1,0 +1,27 @@
+p{
+
+background-color: red;
+color:white
+
+}
+
+div{
+
+background-color: black;
+color: white;
+
+position: absolute;
+top:75px;
+right|left:150px;
+width:250px;
+height:250;
+
+}
+
+
+
+Notes:
+The TOP property and LEFT|RIGHT property are the key locating property to specify the position.
+It will ignore the other elements' position, even overlap them.
+
+* The ABSOLUTE position elements are completely removed from the flow (float elements are outside of the flow).

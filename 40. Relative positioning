@@ -1,0 +1,71 @@
+There are two parimary wats to use RELATIVE elements:
+1. We need to set something at an absolute position within your main content panel and you need to keep
+   it within that content panel.
+<!doctype html>
+
+<html>
+
+<head> 
+
+<link rel="stylesheet" type="text/css" href="external style sheet.css">
+
+</head>
+
+<body>
+
+<div id="main1">
+
+<p> A paragraph </p>
+<p> A paragraph </p>
+<p> A paragraph </p>
+<p id="par"> A paragraph </p>
+
+</div>
+
+<div id="main2">
+
+<p> A paragraph </p>
+<p> A paragraph </p>
+<p> A paragraph </p>
+<div id="square"> </div>
+
+</div>
+
+</body>
+
+</html>
+
+style.css
+#main2{
+
+background-color: #e5e4d7;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+position: relative;
+
+}
+
+#square{
+
+height: 25px;
+width:25px;
+background: red;
+
+position: absolute;
+bottom: 5px;
+right: 5px;
+
+}
+
+(put the <div id="square"> inside the <div id="main2">)
+
+2. Use it for some smaller panel such as navigation bar. (future learning)
+
+Notes:
+STATIC positioning is the default positioning in the browser sets for an element.
+Therefore, it means it's in the flow.
+RELATIVE position is determined by first static element. (相对于上一个元素的位置而言)
+
+ABSOLUTE - position:
+determined by FIRST non-static element.

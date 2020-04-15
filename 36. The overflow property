@@ -1,0 +1,83 @@
+</head>
+
+<body>
+
+<div id="main">
+
+<p>
+The Hufflepuff common room and dormitories are located in the Hufflepuff Basement. 
+Students enter the Basement through a barrel in a stack of barrels in the kitchen corridor. 
+They must tap the correct barrel in the rhythm of 'Helga Hufflepuff' for the lid to open and reveal 
+the passageway to the common room. If someone taps the wrong barrel or uses the wrong rhythm, 
+that person is drenched in vinegar.
+</p>
+
+<p>
+The Hufflepuff common room and dormitories are located in the Hufflepuff Basement. 
+Students enter the Basement through a barrel in a stack of barrels in the kitchen corridor. 
+They must tap the correct barrel in the rhythm of 'Helga Hufflepuff' for the lid to open and reveal 
+the passageway to the common room. If someone taps the wrong barrel or uses the wrong rhythm, 
+that person is drenched in vinegar.
+</p>
+
+</div>
+
+<div id="main2">
+
+<p>
+The Hufflepuff common room and dormitories are located in the Hufflepuff Basement. 
+Students enter the Basement through a barrel in a stack of barrels in the kitchen corridor. 
+They must tap the correct barrel in the rhythm of 'Helga Hufflepuff' for the lid to open and reveal 
+the passageway to the common room. If someone taps the wrong barrel or uses the wrong rhythm, 
+that person is drenched in vinegar.
+</p>
+
+<p>
+The Hufflepuff common room and dormitories are located in the Hufflepuff Basement. 
+Students enter the Basement through a barrel in a stack of barrels in the kitchen corridor. 
+They must tap the correct barrel in the rhythm of 'Helga Hufflepuff' for the lid to open and reveal 
+the passageway to the common room. If someone taps the wrong barrel or uses the wrong rhythm, 
+that person is drenched in vinegar.
+</p>
+
+</div>
+
+</body>
+
+</html>
+
+style.css
+body{
+
+background-color: #9c9f84;
+margin: 0px;
+
+}
+
+#main{
+
+background-color: #e5e4d7;
+border-radius: 5px;
+
+padding: 10px;
+margin: 20px;
+
+} 
+
+#main2{
+
+background-color: green;
+color: yellow;
+border-radius: 5px;
+
+padding: 10px;
+margin: 20px;
+height: 120px; 
+overflow: scroll;
+
+}
+
+
+
+Notes:
+When the text (content) is overflowed, we can use the "scrallbar" to handle the overflow.

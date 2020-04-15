@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+
+<head> 
+
+<link rel="stylesheet" type="text/css" href="external style sheet.css">
+
+</head>
+
+<body>
+
+<div class="main">
+
+<p>
+The Hufflepuff common room and dormitories are located in the Hufflepuff Basement. 
+Students enter the Basement through a barrel in a stack of barrels in the kitchen corridor. 
+They must tap the correct barrel in the rhythm of 'Helga Hufflepuff' for the lid to open and reveal 
+the passageway to the common room. If someone taps the wrong barrel or uses the wrong rhythm, 
+that person is drenched in vinegar.
+</p>
+
+</div>
+
+<br>
+
+<a class="button" href="https://dict.eudic.net/dicts/en/sequal"> Home </a>
+
+</body>
+
+</html>
+
+style.css
+body{
+
+background-color: #9c9f84;
+
+} 
+
+.main{
+
+background-color: #e5e4d7;
+border-radius: 5px;
+padding: 10px;
+cursor: help;
+
+}
+
+.button{
+
+background-color: #e7e7e7;
+border: 1px solid;
+border-radius: 3px;
+box-sizing: border-box;
+display: block;
+font: 700 13px Verdana, Georgia, Serif;
+height: 30px;
+line-height: 28px;
+padding: 0 20px;
+margin: 0 auto;
+
+}
+
+a{
+
+color: #666;
+text-decoration: none;
+float: right;
+
+}
+
+a:hover{
+
+color:#000;
+background: #dadada;
+cursor: crosshair;
+
+}
+
+
+
+Notes:
+Cursor property value (shape):
+default
+inherit
+auto
+URL
+crosshair
+pointer
+move
+text
+help
+hand
+no-drop
+alias
+progress
+wait
+grab
+grabbing
+copy
+cell
+spinning
+none

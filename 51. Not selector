@@ -1,0 +1,11 @@
+STYLESHEET.CSS
+p{
+color:red;
+}
+
+:not(p){
+color: darkgreen;
+}
+
+/*除了<p>元素的文本依然是红色的，其他元素都变成深绿色*/
+/*一定要先设定<p>，然后再从:not(p)中剔除它，不然not会找不到需要剔除的元素*/

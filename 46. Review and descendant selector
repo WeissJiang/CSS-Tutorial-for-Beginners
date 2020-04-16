@@ -1,0 +1,35 @@
+1. Select the element by TYPE
+h1{
+
+}
+
+2. Select the element with #
+#para1{
+
+}
+
+3. Select the element with .
+.para{
+
+}
+or (COMBINATION)
+h2, h3 #para1{
+
+}
+
+4. The DESCENDANT selector - select the element inside another element
+(as long as <p> inside in <div> element)
+div p{
+
+}
+
+5. The CHILD selector - select DIRECT child element 
+(There is no other child elements from <blockquote> to <p>)
+blockquote.test>b{
+
+}
+
+HTML (for 5th point):
+<blockquote class="test">
+<b> This is a paragraph to test child selector. </b>
+</blockquote>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="nav">
+<ul>                                   <!--Inside the <div> is similar with vertical menu-->
+<li> <a class="button" href=""> Home </li>
+<li> <a class="button" href=""> Link </li>
+<li> <a class="button" href=""> Forum </li>
+<li> <a class="button" href=""> About </li>
+</ul>
+</div>
+
+</body>
+</html>
+
+
+
+STYLESHEET.CSS
+#nav{
+background-color: darkgreen;
+height: 35px;
+font-size: 25px;
+font-weight: bold;
+font: Tahoma;
+}
+
+#nav ul{
+padding: 0;
+margin: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#nav li{
+display: inline;                       /*make the text side by side (HORIZONTAL)*/
+padding: 15px;
+vertical-align: middle;
+}
+
+#nav a{
+text-decoration: none;
+padding: 8px;
+color: white;
+vertical-align: middle;
+}
+
+#nav a:hover{
+color: black;
+background-color: white;
+}
+
+
+
+Notes:
+Use the <div> elements to make a section.
+"text-decoration" is not inheritable, so that we need to put it in a{}.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<!--这里是注释-->
+<ul>
+<li> <a href=""> Home </li>
+<li> <a href=""> Link </li>
+<li> <a href=""> Forum </li>
+<li> <a href=""> About </li>
+</ul>
+
+</body>
+</html>
+
+STYLESHEET.CSS
+ul{                            /*BUTTON EFFECT*/
+list-style: none;              /*get rid of bullets*/
+padding: 0;
+margin: 0;                     /*get rid of the padding and margin*/
+}
+
+ul li a{                       /*CSS rule to specify the path*/
+text-decoration: none;         /*get rid of the underline*/
+font-family: Georgia, "Times New Roman", Times;
+background-color: #5c755e;     /*the background color is only sizing itself to the area of the text*/
+color: white;
+display: block;                /*convert the inline element to the blcok element (bg-color size)*/
+width: 80px;
+margin: 5px;                   /*make it more like a button*/
+padding: 10px;                 /*it will increase the size of the buttons*/
+border: 1px solid black;
+border-radius: 2px;
+text-align: center;
+height: 25px;
+line-height: 25px;             /*perfectly fvertical centered when the "line-height"="height".*/
+}
+
+ul li a:hover{                 /*HOVER OVER EFFECT*/
+background-color: #d3d3d3;
+color: black;
+}
+
+
+Notes:
+<ul> is a kind of BLOCK element (top-down order).
+<a> is a kind of INLINE element.
+ul li a{}: we don't actually have to put these in here, we could actually just specify a{] for the anchor tag.
+           But it's good practice to the paths in so that you kind of know the path.

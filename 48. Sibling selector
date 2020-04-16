@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="left">
+<h2> Left Content Area </h2>
+<p> This ares will contain the left content area, We will populate this area with images and text. </p>
+</div>
+
+<div id="center">
+<h2> Center Content Area </h2>
+<p> This ares will contain the center content area, This area will contain the main articles. </p>
+<p> Another paragraph. </p>
+</div>
+
+<div id="right">
+<h2> Right Content Area </h2>
+<p> This ares will contain the right content area, We will populate this area with links and text. </p>
+</div>
+
+</body>
+</html>
+
+STYLESHEET.CSS
+h2+p{                            /*<h2>和与之相邻的第一个<p>(下面的第二个<p>不包括在内)都被修饰*/
+color: red;
+}
+
+h2~p{                            /*<h2>和它后面的每个<p>都会被修饰*/
+
+}

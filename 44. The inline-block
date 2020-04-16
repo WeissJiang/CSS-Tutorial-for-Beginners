@@ -1,0 +1,16 @@
+HTML:
+<p> Some more <span class="test">text to read</span> of interest. </p>
+
+STYLESHEET.CSS
+.test{
+background-color: yellow;
+height: 50px;
+display: inline|blcok|inline-block;
+}
+
+
+
+Notes:
+INLINE: 被修饰的文本背景变成黄色，其他都不变。
+BLOCK: 被修饰的文本单列一行，一整行变成黄色，高度为50px。
+INLINE-BLOCK: 被修饰的文本所在行的高度变成50px，但不会被单列一行。

@@ -1,0 +1,15 @@
+1. Mass changes
+#para1, #para2, #para2{
+
+}
+
+2. The last rule set in your CSS stylesheet takes precedence.
+#para1, #para2, #para2{
+border:solid 2px green;
+}
+
+#para1, #para2, #para2{
+border:solid 2px red;
+}
+
+then, the border turns to be red.

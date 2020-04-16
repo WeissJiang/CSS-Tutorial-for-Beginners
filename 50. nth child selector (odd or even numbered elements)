@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="right">
+<p> No.1 paragraph </p>
+<p> No.2 paragraph </p>
+<p> No.3 paragraph </p>
+<p> No.4 paragraph </p>
+<p> No.5 paragraph </p>
+<p> No.6 paragraph </p>
+<p> No.7 paragraph </p>
+<p> No.8 paragraph </p>
+<p> No.9 paragraph </p>
+<p> No.10 paragraph </p>
+<p> No.11 paragraph </p>
+<p> No.12 paragraph </p>
+</div>
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#right p:nth-child(even) {             /*偶数行的<p>被选中*/
+background-color: pink;
+}
+
+#right p:nth-child(odd) {             /*奇数行的<p>被选中*/
+background-color: pink;
+}
+
+#right p:nth-child(3) {             /*第三行的<p>被选中*/
+background-color: pink;
+}
+
+#right p:nth-child(3n) {             /*3倍数行的<p>被选中，例如3、6、9、12行*/
+background-color: pink;
+}
+
+#right p:nth-child(3n+4) {             /*从第四行开始，每三行的<p>被选中，例如4、7、10行*/
+background-color: pink;
+}

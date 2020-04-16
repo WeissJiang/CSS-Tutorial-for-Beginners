@@ -8,10 +8,10 @@
 
 <!--这里是注释-->
 <ul>
-<li> <a class="button" href=""> Home </li>
-<li> <a class="button" href=""> Link </li>
-<li> <a class="button" href=""> Forum </li>
-<li> <a class="button" href=""> About </li>
+<li> <a href=""> Home </li>
+<li> <a href=""> Link </li>
+<li> <a href=""> Forum </li>
+<li> <a href=""> About </li>
 </ul>
 
 </body>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<h2> Fill out the form below and click "order now" to order </h2>
+
+<form id="theForm" action="" method="">
+<p>
+<div class="row">
+<lable for="name"> Name: </lable>
+<input type="text" id="name" name=""> </br></br>
+</div>
+
+<div class="row">
+<lable for="address"> Address: </lable>
+<input type="text" id="address" name=""> </br></br>
+</div>
+
+<div class="row">
+<lable for="phone"> Phone: </lable>
+<input type="text" id="phone" name=""> </br></br>
+</div>
+
+<div class="row">
+<lable for="email"> Email: </lable>
+<input type="text" id="email" name=""> </br></br>
+</div>
+
+</p>
+</form>
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#theForm{
+color: white;
+display: table;                  /*第一步*/
+padding: 15px;
+background-color: #2c8f77;
+border: solid 2px black;
+}
+
+.row{
+display: table-row;              /*第二步*/
+}
+
+.row lable{
+display: table-cell;             /*第三步*/
+padding: 2px;
+text-align: right;               /*文本右侧对其*/
+}
+
+.row input{
+display: table-cell;             /*第四步*/ /*输入框对齐*/
+padding: 2px;
+}
+
+
+
+
+
+Notes:
+<lable for="xxx">与<input type="text" id="xxx" name="">一致，点击Name的时候，自动选中后面的输入框。

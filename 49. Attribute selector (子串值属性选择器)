@@ -1,0 +1,29 @@
+更加精确地匹配
+
+HTML:
+<div id="right">
+<p lang="en-us ja"> Some text </p>
+<p lang="fr"> Some text 2 </p>
+<p lang="fr ko"> Some text 3 </p>
+</div>
+
+STYLESHEET.CSS
+p[lang] {                               /*选中了所有包含 lang 的<p>*/
+background-color: pink;
+}
+
+p[lang="fr"] {                          /*选中了只包含 lang="fr" 所在的<p>*/
+background-color: pink;
+}
+
+p[lang^="fr"] {                          /*选中了只包含以 "fr" 开头的lang所在的<p>*/
+background-color: pink;
+}
+
+p[lang$="o"] {                          /*选中了只包含以 "o" 结尾的lang所在的<p>*/
+background-color: pink;
+}
+
+p[lang*="u"] {                          /*选中了任何中间包含有 "u" 结尾的lang所在的<p>*/
+background-color: pink;
+}

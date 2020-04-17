@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<p id="text1"> Some text in a paragraph </p>
+<br><br><br>
+<p id="text2"> Some text in a paragraph </p>
+<br><br><br>
+<p id="text3"> Some text in a paragraph </p>
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#text1{
+text-align: center;
+font: bold 60px Helvetica;
+text-shadow: 3px 3px 5px pink;         /*the first 3px means horizontal shadow and the second 3px means vertical shadow*/
+}                                      /*the third 5px means blur effect*/
+
+#text2{
+text-align: center;
+font: bold 60px Helvetica;
+text-shadow: 3px 3px 5px pink,
+             6px 6px 10px purple;      /*dual shadow effect*/
+}
+
+#text3{
+text-align: center;
+font: bold 60px Helvetica;
+text-shadow: 3px 3px 5px rgba(0,0,255,0.5);       /*opacity shadow effect*/
+}

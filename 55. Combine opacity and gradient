@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="box1"> </div>                      <!--use <div> to create a rectangle box-->
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#box1{
+      width: 800;
+      height: 300px;
+      float: left;
+      
+      background: blue;
+      background: linear-gradient (rgba(255,255,0,0.3), rgba(0,0,255,1))  /*高透明浅黄色渐变为纯蓝色*/
+}
+
+
+
+Notes:
+rgba: red, green, blue, and alpha (opacity parameter)

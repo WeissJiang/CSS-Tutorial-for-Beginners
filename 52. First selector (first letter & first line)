@@ -1,0 +1,9 @@
+STYLESHEET.CSS
+p::first-letter{            /*double colon*/
+font-weight: bold;
+font-size: 24px;
+}
+
+p:first-line{
+color: red;
+}

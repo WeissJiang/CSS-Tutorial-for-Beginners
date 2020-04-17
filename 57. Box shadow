@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="box1"> </div>                      <!--use <div> to create a rectangle box-->
+<div id="box2"> </div>  
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#box1{
+width: 600px;
+height: 200px;
+background-color: blue;
+box-shadow: 15px 15px 5px 5px pink;         /*the forth 5px means blur effect size*/
+}
+
+#box1{
+width: 600px;
+height: 200px;
+background-color: lightgrey;
+box-shadow: inset 0 0 15px black;         /*inner shadow (tridimensional design 3D)*/ /*15px to blur shadow*/ 
+}

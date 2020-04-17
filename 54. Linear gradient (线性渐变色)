@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div id="box1"> </div>                      <!--use <div> to create a rectangle box-->
+
+</body>
+</html>
+
+STYLESHEET.CSS
+#box1{
+      width: 800;
+      height: 300px;
+      float: left;
+      
+      background: blue;
+      background: linear-gradient (blue, yellow)
+}
+
+
+
+Notes:
+渐变色：
+background: linear-gradient (blue, yellow)    从上到下是“蓝色”渐变成“黄色”
+background: linear-gradient (to right, blue, yellow)    从“左”到“右”(right)是“蓝色”渐变成“黄色”
+background: linear-gradient (to top right, blue, yellow)    从“左下”到“右上”(top right)是“蓝色”渐变成“黄色”
+background: linear-gradient (blue, yellow 20%)    “蓝色”占上层的20%，余下80%为“黄色”
+background: linear-gradient (30deg, blue, yellow)     30度倾斜渐变
+background: linear-gradient (green, blue, yellow)    上中下渐变顺序为“绿蓝黄”
+拼接色：
+background: linear-gradient (blue 50%, yellow 50%)     无渐变区域
